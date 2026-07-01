@@ -55,7 +55,7 @@ export default function LightboxImage({
       onClick={close}
     >
       <button
-        className="absolute top-5 right-5 w-12 h-12 rounded-full bg-white/15 flex items-center justify-center text-white hover:bg-white/30 transition-colors"
+        className="absolute top-5 right-5 z-10 w-12 h-12 rounded-full bg-white/15 flex items-center justify-center text-white hover:bg-white/30 transition-colors"
         onClick={close}
         aria-label="Schließen"
       >
